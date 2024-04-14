@@ -2,8 +2,7 @@ function getElementWidth(content, padding, border) {
     const num1 = parseFloat(content);
     const num2 = parseFloat(padding);
     const num3 = parseFloat(border);
-    const result = num1 + num2*2 + num3*2;
-    const getElementWidth = Math.round(result);
+    const getElementWidth = num1 + num2*2 + num3*2;
 
     return getElementWidth;
 }
